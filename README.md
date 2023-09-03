@@ -3,6 +3,8 @@
 Basic directory structures and template files for building both python pypi\
 packages and documentation for RTD (Read The Docs) using the sphinx theme.
 
+Configuration is for pyproject.toml and flint
+
 This set of example directories and files actually build *both* RTD and PYPI !
 
 Python package release v0.01.09 is here: https://pypi.org/project/new-pyproject/
