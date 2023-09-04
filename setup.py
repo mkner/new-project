@@ -4,15 +4,15 @@ from setuptools import Command, Extension, setup
 from setuptools.command.build_ext import build_ext
 
 
-DISTNAME = "new-pkgsetup"
-DESCRIPTION = "test project using setuptools"
+DISTNAME = "new-pyproject"
+#DESCRIPTION = "test project using setuptools"
 
 if __name__ == "__main__":
     setup()
  
-#mk  works 9/3
+#mk  
 
-import as  newpkg
+import as  new_pyproject as pyproject
 
 #import newpkg as somethingelse
 
