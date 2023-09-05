@@ -1,9 +1,10 @@
 [build-system]
-requires = ["setuptools>=40.8.0", "wheel"]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
 
 #[build-system]
-#requires = ["flit_core >=3.2,<4"]
-#build-backend = "flit_core.buildapi"
+#requires = ["setuptools>=40.8.0", "wheel"]
+
 
 [project]
 name = "new_pyproject"
@@ -24,6 +25,7 @@ classifiers = [
 ]
 
 [project.urls]
+homepage = "https://github.com/mkner/new-pyproject/edit/main/pyproject.toml"
 #homepage = "https://github.com/<project>"
 
 
