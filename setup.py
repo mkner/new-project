@@ -12,7 +12,7 @@ if __name__ == "__main__":
  
 #mk  
 # not work? with .toml even with setuptools
-import as  new_pyproject as pyproject
+#import as  new_pyproject as pyproject
 
 #import newpkg as somethingelse
 
